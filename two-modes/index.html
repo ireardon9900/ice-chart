@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><meta name="referrer" content="no-referrer">
+<title>Private page</title>
+<style>
+:root{--bg:#fbfaf7;--fg:#1b1b1b;--muted:#5f5e5a;--line:#dcd8cc;--card:#f1efe8;--accent:#2e6b4f}
+@media (prefers-color-scheme:dark){:root{--bg:#141414;--fg:#ececec;--muted:#a3a29c;--line:#34332f;--card:#1f1f1e;--accent:#6fbf94}}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--fg);margin:0;font:17px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;display:flex;min-height:100vh;align-items:center;justify-content:center}
+form{background:var(--card);border-radius:14px;padding:22px 20px;width:min(340px,86vw)}
+h1{font-size:1.2em;margin:0 0 .3em}
+p{margin:.3em 0 .9em;color:var(--muted);font-size:.9em}
+input{width:100%;box-sizing:border-box;font:inherit;padding:11px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
+button{margin-top:10px;width:100%;font:inherit;font-weight:600;padding:11px;border-radius:10px;border:0;background:var(--accent);color:#fff}
+#m{min-height:1.2em;margin:.7em 0 0}
+</style></head><body>
+<form id="f" autocomplete="off"><h1>Private page</h1><p>Enter the passphrase you were given.</p>
+<input id="p" type="password" autocapitalize="none" autocorrect="off" spellcheck="false" aria-label="Passphrase">
+<button type="submit">Open</button><p id="m" role="status"></p></form>
+<script>
+var D={"s":"wG3B5y9JaSlB0nTKMwyCSQ==","i":"tUhZ+jHLPNo9krMZ","c":"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","n":600000};
+function b64(s){var b=atob(s),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u;}
+document.getElementById('f').addEventListener('submit',async function(ev){
+  ev.preventDefault();var m=document.getElementById('m');
+  if(!(window.crypto&&crypto.subtle)){m.textContent='This browser can’t open it. Try Safari or Chrome.';return;}
+  m.textContent='Opening…';
+  try{
+    var pw=new TextEncoder().encode(document.getElementById('p').value.trim().toLowerCase());
+    var base=await crypto.subtle.importKey('raw',pw,'PBKDF2',false,['deriveKey']);
+    var key=await crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(D.s),iterations:D.n,hash:'SHA-256'},base,{name:'AES-GCM',length:256},false,['decrypt']);
+    var pt=await crypto.subtle.decrypt({name:'AES-GCM',iv:b64(D.i)},key,b64(D.c));
+    var html=new TextDecoder().decode(pt);
+    document.open();document.write(html);document.close();
+  }catch(e){m.textContent='That passphrase didn’t work.';}
+});
+</script></body></html>
